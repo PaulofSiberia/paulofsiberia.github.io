@@ -1,9 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
+<head>
+    <title>bestmusic</title>
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial;
+        }
+        .heading {
+            text-align: center;
+            border: 2px solid black;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .gallery {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .album {
+            border: 1px solid black;
+            width: 150px;
+            height: 150px;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0;
+        }
+        .card {
+            border: 2px solid black;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .cardhead {
+            margin: 0 0 10px 0;
+            text-align: left;
+        }
+        .cardbody {
+            margin: 0;
+            text-align: left;
+        }
+    </style>
+</head>
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+    <div class="heading">
+        <h1>Страничка им. группы Weezer</h1>
+    </div>
+    <div class="gallery">
+        <div class="album"></div>
+        <div class="album"></div>
+        <div class="album"></div>
+        <div class="album"></div>
+    </div>
+    
+    <div class="card">
+        <h2 class="cardhead">О группе</h2>
+        <p class="cardbody">Реальная информация прямиком из википедии</p>
+    </div>
+    <div class="card">
+        <h2 class="cardhead">Причины мемной популярности</h2>
+        <p class="cardbody">Реальная информация прямиком из реддита или еще чего-нибудь хзз</p>
+    </div>
 </body>
 </html>

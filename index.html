@@ -23,16 +23,23 @@
         .gallery {
             display: flex;
             margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
         }
         .album {
             border: 1px solid black;
             width: 150px;
             height: 150px;
-            margin-right: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
             background-color: #f0f0f0;
+            overflow: hidden;
+        }
+        .album img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         .card {
             border: 2px solid black;
@@ -57,16 +64,16 @@
     </div>
     <div class="gallery">
         <div class="album">
-            <img src="paulofsiberia.github.io/main/weezer_1.jpg" alt="Объективно лучшая музыка на свете">
+            <img src="weezer_1.jpg" alt="Обложка альбома Weezer">
         </div>
         <div class="album">
-            <img src="paulofsiberia.github.io/main/weezer_2.jpg" alt="Объективно лучшая музыка на свете">
+            <img src="weezer_2.jpg" alt="Обложка альбома Weezer">
         </div>
         <div class="album">
-            <img src="paulofsiberia.github.io/main/weezer_3.jpg" alt="Объективно лучшая музыка на свете">
+            <img src="weezer_3.jpg" alt="Обложка альбома Weezer">
         </div>
         <div class="album">
-            <img src="paulofsiberia.github.io/main/weezer_4.jpg" alt="Объективно лучшая музыка на свете">
+            <img src="weezer_4.jpg" alt="Обложка альбома Weezer">
         </div>
     </div>
     
@@ -80,6 +87,7 @@
     </div>
 </body>
 </html>
+
 
 
 
